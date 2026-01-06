@@ -25,11 +25,10 @@ No compilation steps
 
 
 Setup Instructions (Local Development)
+
 Follow these steps to run the project locally on your machine:
 1. Fork the Repository
 Click the Fork button in the top-right corner of the GitHub repository page.
-
-
 This creates a copy of the project under your own GitHub account, allowing you to modify it freely.
 2. Clone Your Fork
 On your forked repository page, copy the repository URL and clone it to your local machine:
@@ -57,6 +56,7 @@ CSS files for styling and layout
 JavaScript files for animations and interactions
 No additional dependencies, package installations, or build tools are required.
 
+
 Customization Guide
 This template is designed to be easily personalized:
 1. Text Content
@@ -73,6 +73,8 @@ The structure is kept simple to avoid unnecessary overrides
 4. Animations
 JavaScript animations are written in plain JavaScript
 You can adjust timings, triggers, or remove animations as needed
+
+
 
 Screenshots 
 HTML
