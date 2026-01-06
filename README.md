@@ -4,14 +4,14 @@ READ ME FILE:
 Live deployment:
 https://github.com/ValeMtzAlvarez/portfolio-template-2025.git
 
-Project Description & Purpose
+**Project Description & Purpose**
 This project is a responsive portfolio website template designed to be easily forked and customized by developers, designers, or creatives who want a clean starting point for their personal portfolio. The template focuses on:
 A clear content structure
 Lightweight performance
 Easy customization without build tools or frameworks
 The template showcases a graphic designer, her work, as well as some of her hobbies, but all text, images, and sections are placeholders and are meant to be adapted to the user’s own profession, projects, and personal brand.
 
-Tech Stack
+**Tech Stack**
 This project is built using vanilla web technologies, keeping everything simple, accessible, and dependency-light:
 HTML5 – Semantic markup and content structure
 CSS3 – Layout, styling, and responsive design
@@ -24,7 +24,7 @@ No compilation steps
 
 
 
-Setup Instructions (Local Development)
+**Setup Instructions (Local Development)**
 
 Follow these steps to run the project locally on your machine:
 1. Fork the Repository
@@ -57,7 +57,8 @@ JavaScript files for animations and interactions
 No additional dependencies, package installations, or build tools are required.
 
 
-Customization Guide
+**Customization Guide**
+
 This template is designed to be easily personalized:
 1. Text Content
 Edit the text directly in the HTML files
@@ -76,7 +77,9 @@ You can adjust timings, triggers, or remove animations as needed
 
 
 
-Screenshots 
+**Screenshots** 
+
+
 HTML
 
 <img width="1019" height="631" alt="Captura de Pantalla 2026-01-06 a la(s) 12 31 28" src="https://github.com/user-attachments/assets/5764b8bb-42ac-4339-badf-aa0172106047" />
@@ -94,18 +97,18 @@ JavaScript
 The screenshots show what the HTML, CSS, and JavaScript code looks like, highlighting a clean and well-structured setup that allows users to easily customize the template according to their preferences, needs, and profession. 
 
 
-Credits & Acknowledgments
+**Credits & Acknowledgments**
 
 
-Image hosting & optimization: ImageKit.io
-
-Development: Built using vanilla HTML, CSS, and JavaScript
-
-Fonts: Instrument serif, Poppins. 
+  Image hosting & optimization: ImageKit.io
+  
+  Development: Built using vanilla HTML, CSS, and JavaScript
+  
+  Fonts: Instrument serif, Poppins. 
 
 Feel free to fork, modify, and use this template for personal or professional projects.
 
-Reflection
+**Reflection**
 
 Overall, I am very proud of the website I designed and developed. The project challenged me on both a technical and creative level, and although I encountered several difficulties throughout the process, I am satisfied with the final outcome.
 Some of the biggest challenges I faced were related to more advanced interactions and motion, such as implementing parallax scrolling, working with scroll-based reveal animations, and exploring GSAP. While these aspects were particularly exciting to me at the beginning of the project, they also proved to be more complex than expected. Accessibility, was another area that required careful consideration and added complexity to the animation process.
