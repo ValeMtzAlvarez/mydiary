@@ -1,0 +1,54 @@
+/* =========================
+   BARREL VARIABLES
+   ========================= */
+:root {
+  /* Colors */
+  --bg-color: #f2d24b;
+  --text-color: #000;
+  --white: #fff;
+  --black: #000;
+
+  /* Fonts */
+  --font-title: "Instrument Serif", serif;
+  --font-ui: "Poppins", serif;
+
+  /* Sizes */
+  --nav-padding: clamp(12px, 2vw, 24px) clamp(20px, 5vw, 60px);
+  --nav-font-size: clamp(12px, 1vw, 16px);
+  --title-size: clamp(2rem, 6vw, 5rem);
+  --section-padding: clamp(60px, 8vw, 140px);
+  --text-width: clamp(300px, 45vw, 600px);
+
+  /* Buttons */
+  --btn-bg: #f2d24b;
+  --btn-text: #000;
+
+  /* Images */
+  --image-gap: clamp(12px, 2vw, 20px);
+
+  /* Slider */
+  --slide-width: clamp(200px, 18vw, 300px);
+  --slide-height: clamp(140px, 30vw, 500px);
+
+  /* Lifestyle text */
+  --lifestyle-text-width: clamp(280px, 60vw, 700px);
+}
+
+/* =========================
+   RESET
+   ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+   ========================= */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-title);
+  min-height: 100vh;
+}
