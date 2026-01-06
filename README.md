@@ -2,7 +2,7 @@ READ ME FILE:
 
 🔗 Live Demo
 Live deployment:
-https://github.com/ValeMtzAlvarez/portfolio-template-2025.git
+[https://github.com/ValeMtzAlvarez/portfolio-template-2025.git](https://valemtzalvarez.github.io/portfolio-template-2025/)
 
 **Project Description & Purpose**
 This project is a responsive portfolio website template designed to be easily forked and customized by developers, designers, or creatives who want a clean starting point for their personal portfolio. The template focuses on:
