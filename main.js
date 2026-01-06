@@ -1,5 +1,5 @@
 // =========================
-// MENU HAMBURGUESA
+// MENU
 // =========================
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
@@ -72,11 +72,13 @@ toggleButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
 
   if (document.body.classList.contains('dark-mode')) {
-    toggleButton.textContent = '?';
+    toggleButton.textContent = '☀️';
   } else {
-    toggleButton.textContent = '??';
+    toggleButton.textContent = '🌙';
   }
 });
+
+
 
 // =========================
 // INTERSECTION OBSERVER ANIMATIONS
