@@ -74,8 +74,7 @@ The structure is kept simple to avoid unnecessary overrides
 JavaScript animations are written in plain JavaScript
 You can adjust timings, triggers, or remove animations as needed
 
-Screenshots / Demo
-Screenshots de cada código:
+Screenshots 
 HTML
 
 <img width="1019" height="631" alt="Captura de Pantalla 2026-01-06 a la(s) 12 31 28" src="https://github.com/user-attachments/assets/5764b8bb-42ac-4339-badf-aa0172106047" />
