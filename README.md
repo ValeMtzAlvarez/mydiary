@@ -2,7 +2,7 @@ READ ME FILE:
 
 🔗 Live Demo
 Live deployment:
-https://github.com/ValeMtzAlvarez/mydiary.git
+https://github.com/ValeMtzAlvarez/portfolio-template-2025.git
 
 Project Description & Purpose
 This project is a responsive portfolio website template designed to be easily forked and customized by developers, designers, or creatives who want a clean starting point for their personal portfolio. The template focuses on:
@@ -33,7 +33,7 @@ Click the Fork button in the top-right corner of the GitHub repository page.
 This creates a copy of the project under your own GitHub account, allowing you to modify it freely.
 2. Clone Your Fork
 On your forked repository page, copy the repository URL and clone it to your local machine:
-git clone https://github.com/ValeMtzAlvarez/mydiary.git
+git clone https://github.com/ValeMtzAlvarez/portfolio-template-2025.git
 Navigate into the project folder:
 cd repository-name
 3. Open the Project in Visual Studio Code
