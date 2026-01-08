@@ -11,15 +11,22 @@ menuToggle.addEventListener("click", () => {
 // TYPEWRITER EFFECT
 // =========================
 const heroTitle = document.querySelector(".hero h1");
-const text = heroTitle.innerHTML; // Use innerHTML to preserve <br> tags
-heroTitle.innerHTML = "";
+const originalHTML = heroTitle.innerHTML;
+// Split by <br> and join with a special marker
+const text = originalHTML.replace(/<br\s*\/?>/gi, "\n");
+heroTitle.textContent = "";
 heroTitle.style.visibility = "visible";
 
 let charIndex = 0;
 
 function typeWriter() {
   if (charIndex < text.length) {
-    heroTitle.innerHTML += text.charAt(charIndex);
+    const char = text.charAt(charIndex);
+    if (char === "\n") {
+      heroTitle.appendChild(document.createElement("br"));
+    } else {
+      heroTitle.appendChild(document.createTextNode(char));
+    }
     charIndex++;
     // Velocidad de escritura (ajusta el valor en milisegundos)
     setTimeout(typeWriter, 80);
