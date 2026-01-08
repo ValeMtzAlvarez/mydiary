@@ -11,15 +11,15 @@ menuToggle.addEventListener("click", () => {
 // TYPEWRITER EFFECT
 // =========================
 const heroTitle = document.querySelector(".hero h1");
-const text = heroTitle.textContent;
-heroTitle.textContent = "";
+const text = heroTitle.innerHTML; // Use innerHTML to preserve <br> tags
+heroTitle.innerHTML = "";
 heroTitle.style.visibility = "visible";
 
 let charIndex = 0;
 
 function typeWriter() {
   if (charIndex < text.length) {
-    heroTitle.textContent += text.charAt(charIndex);
+    heroTitle.innerHTML += text.charAt(charIndex);
     charIndex++;
     // Velocidad de escritura (ajusta el valor en milisegundos)
     setTimeout(typeWriter, 80);
