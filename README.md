@@ -90,6 +90,10 @@ JavaScript
 
 The screenshots show what the HTML, CSS, and JavaScript code looks like, highlighting a clean and well-structured setup that allows users to easily customize the template according to their preferences, needs, and profession.
 
+**Use of AI**
+
+Claude.AI was used to implement a typewriter-style animation for the homepage text: "Hey there, welcome to my digital diary". The prompt and answer can be found on the docs/plan2.md file.
+
 **Credits & Acknowledgments**
 
 Image hosting & optimization: ImageKit.io
