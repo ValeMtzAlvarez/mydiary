@@ -160,7 +160,9 @@
   transition: transform 0.2s ease;
 }
 
-.work-btn:hover { transform: translateY(-2px); }
+.work-btn:hover {
+  transform: translateY(-2px);
+}
 
 .work-illustration img {
   max-width: clamp(180px, 25vw, 260px);
@@ -169,8 +171,13 @@
   opacity: 0.85;
 }
 
-.work-illustration.left { justify-self: start; }
-.work-illustration.right { justify-self: end; transform: scaleX(-1); }
+.work-illustration.left {
+  justify-self: start;
+}
+.work-illustration.right {
+  justify-self: end;
+  transform: scaleX(-1);
+}
 
 /* =========================
    WHAT ELSE SECTION
@@ -196,18 +203,27 @@
   position: absolute;
 
   /* Hacer visible desde el inicio */
-  opacity: 1; 
+  opacity: 1;
   transform: translateY(0);
   transition: opacity 0.8s ease, transform 0.8s ease;
   z-index: 2;
-	
-	
 }
 
-
-.what-else-text.top { top: 40px; left: 40px; text-align: left; }
-.what-else-text.bottom { bottom: 40px; right: 40px; text-align: right; transition-delay: 0.2s; }
-.what-else-text.show { opacity: 1; transform: translateY(0); }
+.what-else-text.top {
+  top: 40px;
+  left: 40px;
+  text-align: left;
+}
+.what-else-text.bottom {
+  bottom: 40px;
+  right: 40px;
+  text-align: right;
+  transition-delay: 0.2s;
+}
+.what-else-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .what-else-image-container {
   max-width: 320px;
@@ -222,5 +238,5 @@
   height: auto;
   object-fit: contain;
   border-radius: var(--image-radius);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

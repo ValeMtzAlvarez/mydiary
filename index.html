@@ -1,183 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Digital Diary</title>
-  <link rel="icon" sizes="16x16" href="images/Favicon-16.png">
-  <link rel="icon" sizes="32x32" href="images/favicon-32.png">
-  <link rel="icon" sizes="180x180" href="images/favicon-180.png">
-  <link rel="stylesheet" href="assets/css/base.css" />
-  <link rel="stylesheet" href="assets/css/layout.css" />
-  <link rel="stylesheet" href="assets/css/components.css" />
-  <link rel="stylesheet" href="assets/css/others.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+    <title>Digital Diary</title>
+    <link rel="icon" sizes="16x16" href="images/Favicon-16.png" />
+    <link rel="icon" sizes="32x32" href="images/favicon-32.png" />
+    <link rel="icon" sizes="180x180" href="images/favicon-180.png" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/others.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
+    <header class="navbar">
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
 
-	<header class="navbar">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#about">ABOUT</a></li>
+          <li><a href="index.html#projects">PROJECTS</a></li>
+          <li><a href="index.html#footer">CONTACT</a></li>
+          <li><a href="index.html#more">MORE</a></li>
 
-    <button class="menu-toggle" aria-label="Abrir menú">
-      ☰
-    </button>
+          <li><button id="theme-toggle">🌙</button></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="hero">
+      <h1>Hey there, welcome to<br />my digital diary</h1>
 
-    <nav>
-      <ul class="nav-links">
-<li> <a href="index.html">HOME</a></li>
-        <li><a href="index.html#about">ABOUT</a></li>
-        <li><a href="index.html#projects">PROJECTS</a></li>
-        <li><a href="index.html#footer">CONTACT</a></li>
-        <li><a href="index.html#more">MORE</a></li>
-      
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/1.jpg"
+        class="img img1"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/2.jpg"
+        class="img img2"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/3.jpg"
+        class="img img3"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/4.jpg"
+        class="img img4"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/5.jpg"
+        class="img img5"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/6.jpg"
+        class="img img6"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/7.jpg"
+        class="img img7"
+      />
+    </main>
 
-        <li><button id="theme-toggle">🌙</button></li>
-      </ul>
-    </nav>
-  </header>
-
-
-  <main class="hero">
-    <h1>Hey there, welcome to<br>my digital diary</h1>
-
-
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/1.jpg" class="img img1 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/2.jpg" class="img img2 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/3.jpg" class="img img3 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/4.jpg" class="img img4 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/5.jpg" class="img img5 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/6.jpg" class="img img6 " />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/7.jpg" class="img img7 " />
-    
-  </main>
-
-  <!-- ABOUT SECTION -->
-  <section class="about" id="about">
-    <div class="about-content">
-      <div class="about-left">
-        <h2>Who am I?</h2>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-left">
+          <h2>Who am I?</h2>
+        </div>
+        <div class="about-right">
+          <p>
+            I am a 27-year-old Spanish graphic designer living in Madrid. I
+            studied at UDIT, Universidad de Diseño, Innovación y Tecnología,
+            also located in the city, where I developed a strong creative,
+            conceptual, and strategic foundation. I specialize in branding and
+            product design, with a particular interest in creating visual
+            identities that are both functional and emotionally engaging. In
+            addition, I work within the field of advertising, where I enjoy
+            translating ideas into clear visual concepts and campaigns. My
+            approach combines design thinking with a sensitivity to detail,
+            always aiming to build meaningful connections between brands and
+            their audiences.
+          </p>
+          <a href="index.html#projects" class="about-btn">
+            See my work <span>→</span>
+          </a>
+        </div>
       </div>
-      <div class="about-right">
+      <div class="about-images">
+        <img
+          src="https://ik.imagekit.io/bjqegoz2t/mydiary/8.jpg"
+          alt="Portrait"
+        />
+        <img
+          src="https://ik.imagekit.io/bjqegoz2t/mydiary/9.jpg"
+          alt="Madrid"
+        />
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="featured-projects" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-gallery">
+        <div class="projects-track">
+          <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/3.jpg" />
+          <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/10.jpg" />
+          <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/11.jpg" />
+          <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/1.jpg" />
+          <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/7.jpg" />
+        </div>
+      </div>
+      <div class="gallery-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+        <span class="dot" data-index="3"></span>
+        <span class="dot" data-index="4"></span>
+      </div>
+    </section>
+
+    <!-- WORK TOGETHER SECTION -->
+    <section class="work-together">
+      <div class="work-illustration left">
+        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/21.jpg" alt="" />
+      </div>
+
+      <div class="work-content">
+        <h2>Wan’t to work together?</h2>
         <p>
-        I am a 27-year-old Spanish graphic designer living in Madrid. I studied at UDIT, Universidad
-de Diseño, Innovación y Tecnología, also located in the city, where I developed a strong
-creative, conceptual, and strategic foundation. I specialize in branding and product design,
-with a particular interest in creating visual identities that are both functional and emotionally
-engaging. In addition, I work within the field of advertising, where I enjoy translating ideas
-into clear visual concepts and campaigns. My approach combines design thinking with a
-sensitivity to detail, always aiming to build meaningful connections between brands and their
-audiences.
+          Have a project in mind? I'd love to hear about it! Let's create
+          something amazing.
         </p>
-        <a href="index.html#projects" class="about-btn">
-          See my work <span>→</span>
-        </a>
+        <a href="index.html#footer" class="work-btn"
+          >Let's have a conversation</a
+        >
       </div>
-    </div>
-    <div class="about-images">
-      <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/8.jpg" alt="Portrait" />
-      <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/9.jpg" alt="Madrid" />
-    </div>
-  </section>
-  
-  <!-- FEATURED PROJECTS -->
-  <section class="featured-projects" id="projects">
-    <h2>Featured Projects</h2>
-    <div class="projects-gallery">
-      <div class="projects-track">
-        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/3.jpg" />
-        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/10.jpg" />
-        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/11.jpg" />
-        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/1.jpg" />
-        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/7.jpg" />
+
+      <div class="work-illustration right">
+        <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/21.jpg" alt="" />
       </div>
-    </div>
-    <div class="gallery-dots">
-      <span class="dot active" data-index="0"></span>
-      <span class="dot" data-index="1"></span>
-      <span class="dot" data-index="2"></span>
-      <span class="dot" data-index="3"></span>
-      <span class="dot" data-index="4"></span>
-    </div>
-  </section>
-  
-  <!-- WORK TOGETHER SECTION -->
-  <section class="work-together">
-    <div class="work-illustration left">
-      <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/21.jpg" alt="">
-    </div>
+    </section>
 
-    <div class="work-content">
-      <h2>Wan’t to work together?</h2>
-      <p>
-     Have a project in mind? I'd love to hear about it! Let's create something amazing.
-      </p>
-      <a href="index.html#footer" class="work-btn">Let's have a conversation</a>
-    </div>
+    <!-- WHAT ELSE -->
+    <section class="what-else-section fade-up" id="more">
+      <h2 class="what-else-text top">WHAT ELSE DO I DO?</h2>
+      <div class="what-else-image-container">
+        <img
+          src="https://ik.imagekit.io/bjqegoz2t/mydiary/12.jpg"
+          alt="Person reading newspaper"
+        />
+      </div>
+      <h2 class="what-else-text bottom">WHAT ELSE DO I DO?</h2>
+    </section>
+    <section class="lifestyle-section">
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/13.jpg"
+        class="life-img life-top-left"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/14.jpg"
+        class="life-img life-top-left-2"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/4.jpg"
+        class="life-img life-top-center"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/18.jpg"
+        class="life-img life-top-right"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/16.jpg"
+        class="life-img life-top-right-2"
+      />
 
-    <div class="work-illustration right">
-      <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/21.jpg" alt="">
-    </div>
-  </section>
-  
-  <!-- WHAT ELSE -->
- <section class="what-else-section fade-up" id="more">
-    <h2 class="what-else-text top">WHAT ELSE DO I DO?</h2>
-    <div class="what-else-image-container">
-      <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/12.jpg" alt="Person reading newspaper" />
-    </div>
-    <h2 class="what-else-text bottom">WHAT ELSE DO I DO?</h2>
-</section>
-<section class="lifestyle-section">
+      <div class="lifestyle-text">
+        <p>
+          Besides being a designer, I love spending time in coffee shops, trying
+          new pastries and trying different chai and matcha lattes. I really
+          enjoy going out to restaurants and exploring a wide variety of
+          cuisines, as food is one of my favorite ways to experience new
+          cultures. I also love practicing yoga, as it helps me relax while
+          making me feel stronger and more balanced. My hobbies include
+          photography and painting; although I am still an early painter. Above
+          all, my favorite thing to do is travel, especially to warm places,
+          where I find inspiration, calm, and new perspectives.
+        </p>
+      </div>
 
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/13.jpg" class="life-img life-top-left" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/14.jpg" class="life-img life-top-left-2" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/4.jpg" class="life-img life-top-center" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/18.jpg" class="life-img life-top-right" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/16.jpg" class="life-img life-top-right-2" />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/18.jpg"
+        class="life-img life-bottom-left"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/19.jpg"
+        class="life-img life-bottom-left-2"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/20.jpg"
+        class="life-img life-bottom-center"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/6.jpg"
+        class="life-img life-bottom-right"
+      />
+      <img
+        src="https://ik.imagekit.io/bjqegoz2t/mydiary/5.jpg"
+        class="life-img life-bottom-right-2"
+      />
 
+      <div class="lifestyle-footer" id="footer">
+        <div class="footer-left">
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
 
-    <div class="lifestyle-text">
-      <p>
-        Besides being a designer, I love spending time in coffee shops, trying new pastries and
-trying different chai and matcha lattes.
-I really enjoy going out to restaurants and exploring a wide variety of cuisines, as food is one
-of my favorite ways to experience new cultures. I also love practicing yoga, as it helps me
-relax while making me feel stronger and more balanced. My hobbies include photography
-and painting; although I am still an early painter. Above all, my favorite thing to do is travel,
-especially to warm places, where I find inspiration, calm, and new perspectives.
-      </p>
-    </div>
+        <div class="footer-center">
+          <a href="mailto:valemtzalvarez@gmail.com"
+            ><i class="fas fa-envelope"></i> valemtzalvarez@gmail.com</a
+          >
+        </div>
 
+        <div class="footer-right">© 2025 Valeria Designer.</div>
+      </div>
+    </section>
 
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/18.jpg" class="life-img life-bottom-left" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/19.jpg" class="life-img life-bottom-left-2" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/20.jpg" class="life-img life-bottom-center" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/6.jpg" class="life-img life-bottom-right" />
-    <img src="https://ik.imagekit.io/bjqegoz2t/mydiary/5.jpg" class="life-img life-bottom-right-2" />
-
-  
-    <div class="lifestyle-footer" id="footer">
-  <div class="footer-left">
-    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-  </div>
-
-  <div class="footer-center">
-    <a href="mailto:valemtzalvarez@gmail.com"><i class="fas fa-envelope"></i> valemtzalvarez@gmail.com</a>
-  </div>
-
-  <div class="footer-right">
-    © 2025 Valeria Designer.
-  </div>
-</div>
-
-  </section>
-
-<script src="main.js" defer></script>
-</body>
+    <script src="main.js" defer></script>
+  </body>
 </html>
