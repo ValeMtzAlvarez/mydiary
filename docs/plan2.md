@@ -48,6 +48,7 @@ border-color: currentColor;
 border-right: none;
 animation: none;
 }
+
 I had an issue with the initial code Claude.AI gave me as the typewriter effect was reading the HTML content exactly as it was, including the <br> tag which means that the JavaScript code was ignoring the HTML tag, which causes "to" and "my" to appear together as "tomy". This was the prompt I wrote in order to fix the mistake:
 "the text of hey there, welcome to my digital diary", reads" "tomy", which is incorrect, it should read "to my".
 After explaining the issue, the final code Claude.AI gave me was the following:
